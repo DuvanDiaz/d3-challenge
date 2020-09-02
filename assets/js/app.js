@@ -210,7 +210,7 @@ function makeResponsive() {
         .attr("class", "axis-text unchange")
         .attr("data-axis-name", "obesity")
         .attr("id", "obesity")
-        .text("Reported to be Obese");
+        .text("Reported to be Obese %");
 
     chart
         .append("text")
@@ -221,7 +221,7 @@ function makeResponsive() {
         .attr("class", "axis-text unchange")
         .attr("data-axis-name", "smokes")
         .attr("id", "smokes")
-        .text("Reported to be Smoking ");
+        .text("Reported to be Smoking % ");
 
     // Append x-axis labels
     chart
@@ -233,7 +233,7 @@ function makeResponsive() {
         // This axis label is active by default
         .attr("class", "axis-text active")
         .attr("data-axis-name", "healthcare")
-        .text("Healthcare Services Average ");
+        .text("Healthcare Services Average");
 
     chart
         .append("text")
@@ -244,7 +244,7 @@ function makeResponsive() {
         // This axis label is inactive by default
         .attr("class", "axis-text inactive")
         .attr("data-axis-name", "poverty")
-        .text("Average of Poverty Reported");
+        .text("Average of Poverty Reported % ");
 
     chart
         .append("text")
@@ -255,7 +255,7 @@ function makeResponsive() {
         // This axis label is inactive by default
         .attr("class", "axis-text inactive")
         .attr("data-axis-name", "age")
-        .text("Age Average of Research Participants");
+        .text("Age Average of Research Participants ");
 
     // Change an axis's status from inactive to active when clicked (if it was inactive)
     // Change the status of all active axes to inactive otherwise

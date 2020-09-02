@@ -59,10 +59,11 @@ h1 {
 
 h2 {
   font-size: 40px;
+  color: #f3e308;
 }
 
 h3 {
-  color: navy;
+  color: rgb(118, 150, 4);
 }
 
 ul { 
@@ -70,10 +71,10 @@ ul {
 }
 
 li {
-  color: black;
+  color: rgb(240, 228, 228);
 }
 
 p {
-  color: navy;
+  color: rgb(245, 118, 118);
   font-size: 20px;
 }
