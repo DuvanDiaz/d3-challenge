@@ -1,4 +1,5 @@
 # DRJournalism
+https://duvandiaz.github.io/D3Journalism/
 
 In this Journalism project, we have analyzed a dataset containing many of the things having an effect on how people live in the US.
 We have looked at things like the average amount of families and individuals who reported to live in poverty,
